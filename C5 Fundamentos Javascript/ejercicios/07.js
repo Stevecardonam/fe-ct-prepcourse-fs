@@ -3,6 +3,8 @@ function esTipoDato(valor) {
   // Retorna el tipo de dato de este valor.
   // Por ejemplo: "string", "number", "boolean", "object", etc.
   // Tu código:
+  var tipoDato = typeof(valor)
+  return tipoDato
 }
 
 module.exports = esTipoDato;
